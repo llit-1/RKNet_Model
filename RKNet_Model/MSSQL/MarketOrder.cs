@@ -12,6 +12,7 @@ namespace RKNet_Model.MSSQL
         public DateTime Created { get; set; }
         public string TTName { get; set; }           
         public int TTCode { get; set; }
+        public int FirstMidserver { get; set; }
         public double OrderSum { get; set; }
         public string OrderTypeName { get; set; }
         public int OrderTypeCode { get; set; }
@@ -119,6 +120,7 @@ namespace RKNet_Model.MSSQL
         public class OrderItem
         {
             public int MenuItemId { get; set; }
+            public int RkCode { get; set; }
             public string RkName { get; set; }
             public string MarketName { get; set; }
             public int MenuPrice { get; set; }
