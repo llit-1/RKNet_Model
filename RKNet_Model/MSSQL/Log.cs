@@ -18,5 +18,8 @@ namespace RKNet_Model.MSSQL
         public string Description { get; set; }
         public string Json { get; set; }
         public string PortalVersion { get; set; }
+        public string OS { get; set; }
+        public string Browser { get; set; }
+        public string SessionID { get; set; }
     }
 }
